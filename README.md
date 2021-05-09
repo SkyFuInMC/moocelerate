@@ -1,2 +1,2 @@
 # moocelerate
-Accelerate MOOC... in an efficient way.
+Accelerate MOOC... in an efficient way. Please use with [A](https://greasyfork.org/scripts/418354-%E8%B6%85%E6%98%9F%E5%AD%A6%E4%B9%A0%E9%80%9A%E7%BD%91%E8%AF%BE%E5%8A%A9%E6%89%8B-%E8%80%83%E8%AF%95%E4%B8%93%E7%89%88/code/%E8%B6%85%E6%98%9F%E5%AD%A6%E4%B9%A0%E9%80%9A%E7%BD%91%E8%AF%BE%E5%8A%A9%E6%89%8B(%E8%80%83%E8%AF%95%E4%B8%93%E7%89%88).user.js) and [B](https://greasyfork.org/scripts/426058-%E8%B6%85%E6%98%9F%E7%BD%91%E8%AF%BE%E5%8A%A9%E6%89%8B-%E6%94%AF%E6%8C%81%E7%BB%9D%E5%A4%A7%E5%A4%9A%E6%95%B0%E9%A2%98%E7%9B%AE/code/%E8%B6%85%E6%98%9F%E7%BD%91%E8%AF%BE%E5%8A%A9%E6%89%8B-%E6%94%AF%E6%8C%81%E7%BB%9D%E5%A4%A7%E5%A4%9A%E6%95%B0%E9%A2%98%E7%9B%AE.user.js).
