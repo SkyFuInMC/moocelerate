@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        MOOCelerate
-// @version     0.5.1
+// @name        MOOCelerate 32x
+// @version     0.5.2
 // @description 超星尔雅给爷死
 // @author      SkyFuInMC
 // @match       https://mooc1.chaoxing.com/ananas/*
@@ -24,17 +24,19 @@ setInterval(function () {
 	EventListener.removeEvent("seekend");
 	EventListener.removeEvent("seeking");
 	if (location.host.indexOf("zhibo") != 0) {
-		EventListener.removeEvent("timeupdate");
-		EventListener.removeEvent("play");
-		EventListener.removeEvent("playing");
 		if (video) {
 			video.removeEvent("ratechange");
 			video.play();
 			video.playbackRate = 16;
 			if (video.readyState > 3 && !video.paused) {
 				video.currentTime += 4;
+			} else {
+				video.play();
 			};
 		};
+		EventListener.removeEvent("timeupdate");
+		EventListener.removeEvent("play");
+		EventListener.removeEvent("playing");
 	} else {
 		localStorage.clear();
 		if (video) {
@@ -42,4 +44,4 @@ setInterval(function () {
 			video.playbackRate = 2;
 		};
 	};
-}, 250)
+}, 500);
